@@ -36,7 +36,7 @@ To download *OpenAPI_Spellchecker*,
    The extracted contents will be loaded into that folder.
    There are no other dependencies.
 
-## Running Description_Finder
+## Running OpenAPI_Spellchecker
 To run *OpenAPI_Spellchecker*,
 1. Double click the application **OpenAPI_Spellchecker.exe**.
 It opens to the *OpenAPI_Spellchecker* window.
