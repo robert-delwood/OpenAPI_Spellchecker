@@ -61,14 +61,19 @@ For example, this may be in Microsoft Word or as any text file.
 The following options are available.
 In each case, the list removes duplications and is sorted in ascending alphabetic order.
 
-**Show misspellings**. This shows only the misspellings.
+**Show misspellings**. This shows words that are considered to be misspellings misspellings.
+A misspelled word is one that does not appear in the dictonary file.
+It will also display words that are not techncially misspelled but rather custom words used in the application.
 This is the default selection.<br>
 **Show all words**. This shows all the words.<br>
 **Show words with midfix numbers**. This shows only words that have the letters and numbers.<br>
 **Show words with numbers only**. This shows words that are only numbers.<br>
 **Show words with upper- and lower-case letters**. This show words that have both upper- and lower-case letters other than as the first character.
-This typically includes field names. It excludes words that are only uppercase.<br>
-**Show words with uppercase only**. This shows words that are only uppercase. Typically, this views acronym-like words.
+This typically includes field names.
+It excludes words that are only uppercase.<br>
+**Show words with uppercase only**. This shows words that are only uppercase.
+The intent is to show acronym-like words.
+In practice, it also shows words that people just like to see as uppercase.
 
 ## Copy controls
 The following controls influence the copying of text.
@@ -81,6 +86,18 @@ This allows users to re-copy the list.<br>
 **Allow copy to clipboard**. This check box controls copying to the clipboard.<br>
 If selected, lists or words will be copied to the clipboard according the behavior outline earlier.<br>
 If not selected, no list or word is copied to the clipboard.
+
+## Dictionary
+To identify misspellings, a dictionary file is attached to the application.
+The file is included during the installation.,
+It is in the same directory location as the application.
+It is **named words.txt**.
+This is a plain text file and is one word on each line.
+
+You may choose to use another dictionary file, as long as it's plain text, in the same location as the application, and is named named **words.txt**.
+The application can run without a dictionary file.
+In that case, the misspelling option will be not available to select.
+All the other view crition options can still be selected.
 
 ## Caveats
 *OpenAPI_Spellchecker* is offered and used as is.
