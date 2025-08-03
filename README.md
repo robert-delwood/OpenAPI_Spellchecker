@@ -27,8 +27,11 @@ To download *OpenAPI_Spellchecker*,
 2. Paste this URL into the text box: **https://github.com/robert-delwood/OpenAPI_Spellchecker/tree/main/OpenAPI_Spellchecker/OpenAPI_Spellchecker_Project**
 3. Click Enter. This displays a save file dialog.
 1. Navigate to the download location of your choice.
+2. You muight want to change the download name to something like **OpenAPI_Spellchecker.zip**.
+   This download application makes up it's own names.
 1. Select **Save**. This saves the file to that location.
-1. Double click OpenAPI_Spellchecker.zip. This will unzip the file to the selected location.
+1. Double click **OpenAPI_Spellchecker.zip**, or whatever you just named it.
+   This will unzip the file to the selected location.
    This will create a folder at the location named **OpenAPI_Spellchecker**.
    The extracted contents will be loaded into that folder.
    There are no other dependencies.
