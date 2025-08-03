@@ -38,14 +38,18 @@ To download *OpenAPI_Spellchecker*,
 
 ## Running OpenAPI_Spellchecker
 To run *OpenAPI_Spellchecker*,
-1. Double click the application **OpenAPI_Spellchecker.exe**.
-It opens to the *OpenAPI_Spellchecker* window.
-
-## Running OpenAPI_Spellchecker
-To run *OpenAPI_Spellchecker*,
 1. Double click the application OpenAPI_Spellchecker.exe.
 It opens to the *OpenAPI_Spellchecker* window.
 By default, it is set to Show misspellings.
+1. Select **Open OpenAPI file**. This shows the file open dialog.
+   Navigate to, and then select, the target OpenAPI file.
+   It may either JSON or YAML.
+   Processing should be automatic.
+1. Select **Process file** should it not process automatically when an OpenAPI file is first selected
+   It may also be selected to force processing an additional time, if needed.
+
+The View criterion may be changed.
+If so, select Process file again.
 
 Processed word lists are automatically copied to the clipboard.
 Individual words may be copied to the clipboard by either double clicking the word, or selecting **Copy selected word clipboard**.
