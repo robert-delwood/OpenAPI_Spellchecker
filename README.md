@@ -41,46 +41,48 @@ To run *OpenAPI_Spellchecker*,
 1. Double click the application **OpenAPI_Spellchecker.exe**.
 It opens to the *OpenAPI_Spellchecker* window.
 
-## Operations
-To get a list of descriptions:
-1. Select **Open OpenAPI file**. This displays an open file dialog.
-1. Navigate to, and then select the target OpenAPI source file.
-1. Select **Open**. This opens the file and starts its processing. 
-This may take a moment depending on the file size and internal complexity.
+## Running OpenAPI_Spellchecker
+To run *OpenAPI_Spellchecker*,
+1. Double click the application OpenAPI_Spellchecker.exe.
+It opens to the *OpenAPI_Spellchecker* window.
+By default, it is set to Show misspellings.
 
-By default, the descriptions are automatically copied to the clipboard.
+Processed word lists are automatically copied to the clipboard.
+Individual words may be copied to the clipboard by either double clicking the word, or selecting **Copy selected word clipboard**.
 Without any additional involvement with the application, you can paste the clipboard into another document.
 For example, this may be in Microsoft Word or as any text file.
 
-The application shows the OpenAPI document's structure as tree view of all the paths. 
-Any path may be expanded by clicking on it.
-* Multiple clicks may be needed to fully traverse a branch.
-* Clicking an open branch closes it.
-* Multiple branches any be open at the same time.
+## View criterion
+The following options are available.
+In each case, the list removes duplications and is sorted in ascending alphabetic order.
 
-The tree view provides no additional functionality other than being able to visually see the field structures with an endpoint.
-You cannot get the descriptions for a specific branch of field.
+**Show misspellings**. This shows only the misspellings.
+This is the default selection.<br>
+**Show all words**. This shows all the words.<br>
+**Show words with midfix numbers**. This shows only words that have the letters and numbers.<br>
+**Show words with numbers only**. This shows words that are only numbers.<br>
+**Show words with upper- and lower-case letters**. This show words that have both upper- and lower-case letters other than as the first character.
+This typically includes field names. It excludes words that are only uppercase.<br>
+**Show words with uppercase only**. This shows words that are only uppercase. Typically, this views acronym-like words.
 
-## The Buttons
+## Copy controls
+The following controls influence the copying of text.
 
-**Open OpenAPI file**. This selects and opens an OpenAPI source file. Once selected, the processing is automatic. This includes copying the descriptions to the clipboard. No additional action is required.
-
-**Copy description to clipboard**. This copies the descriptions to the clipboard. This allows you to copy other items after first opening the application. The application is not re-run, nor is re-opening the source file required.
-
-**Open all first levels**. This opens all first levels of each endpoint.
-
-**Open all second levels**. This opens all second levels of each endpoint.
-
-**Close all levels**. This closes all levels for each endpoint.
-
-**Automatically copy to clipboard** (checkbox). This sets the default capability for automatically copying descriptions to the clipboard. There may instances when you want to see the field structures but not copy descriptions to the clipboard.<br>
-* If checked, descriptions are copied to the clipboard.<br>
-* If unchecked, descriptions are copied to the clipboard.
+**Copy complete list to clipboard**. This copies the entire list to the clipboard.
+This list is automatically copied to the clipboard by default each time a different View criterion is selected. 
+However, the clipboard may change after the list is initially run.
+This allows users to re-copy the list.<br>
+**Copy selected word clipboard**. this selects an individual word. Highlight the intended word and select this button.<br>
+**Allow copy to clipboard**. This check box controls copying to the clipboard.<br>
+If selected, lists or words will be copied to the clipboard according the behavior outline earlier.<br>
+If not selected, no list or word is copied to the clipboard.
 
 ## Caveats
-*Description_Finder* is offered and used as is.
+*OpenAPI_Spellchecker* is offered and used as is.
 While I did test it, you may find limitations and problems.
 Feel free to report any comments, questions, and concerns, including bugs, to me.
+My email is*robert@writeonce.org*
 I will look into them.
+
 
 
