@@ -49,7 +49,8 @@ By default, it is set to Show misspellings.
    It may also be selected to force processing an additional time, if needed.
 
 The View criterion may be changed.
-If so, select Process file again.
+The View criterion determines the kind of word list to display.
+If so, select **Process file** again.
 
 Processed word lists are automatically copied to the clipboard.
 Individual words may be copied to the clipboard by either double clicking the word, or selecting **Copy selected word clipboard**.
