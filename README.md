@@ -23,19 +23,19 @@ In most cases $ref statements are accurately handled but due to OpenAPI coding d
 
 ## Downloading *OpenAPI_Spellchecker*
 To download *OpenAPI_Spellchecker*,
-1. Navigate to my GitHub repository, if you are not already there: https://github.com/robert-delwood/OpenAPI_Spellchecker
-1. Select the file: OpenAPI_Spellchecker.zip
-1. Select **Raw**. This displays a save file dialog.
+1. Navigate to: **https://download-directory.github.io**
+2. Paste this URL into the text box: **https://github.com/robert-delwood/OpenAPI_Spellchecker/tree/main/OpenAPI_Spellchecker/OpenAPI_Spellchecker_Project**
+3. Click Enter. This displays a save file dialog.
 1. Navigate to the download location of your choice.
 1. Select **Save**. This saves the file to that location.
 1. Double click OpenAPI_Spellchecker.zip. This will unzip the file to the selected location.
-   This will create a folder at the location named OpenAPI_Spellchecker.
+   This will create a folder at the location named **OpenAPI_Spellchecker**.
    The extracted contents will be loaded into that folder.
    There are no other dependencies.
 
 ## Running Description_Finder
 To run *OpenAPI_Spellchecker*,
-1. Double click the application OpenAPI_Spellchecker.exe.
+1. Double click the application **OpenAPI_Spellchecker.exe**.
 It opens to the *OpenAPI_Spellchecker* window.
 
 ## Operations
